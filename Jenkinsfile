@@ -36,8 +36,8 @@ pipeline {
                     ], 
                     credentialsId: 'nexus', 
                     groupId: "${GroupId}", 
-                    nexusUrl: '3.86.18.137:8081', 
-                    nexusVersion: 'nexus2', 
+                    nexusUrl: '10.0.0.53:8081', 
+                    nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: "${NexusRepo}", 
                     version: "${Version}"
